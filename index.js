@@ -14,7 +14,7 @@ const MIN_AMOUNT = 0.000001;
 const MAX_AMOUNT = 0.000009;
 
 const TARGET_ADDRESSES = [
-    "0xce5F869BE071D4f5503A0806f6A9d0249af48658"
+    "0xB981249292B9898994FF0b2Ae1dEa86e26f97Ec4"
 ];
 
 const provider = new ethers.providers.JsonRpcProvider(RPC_URL);
