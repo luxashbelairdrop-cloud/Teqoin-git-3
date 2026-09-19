@@ -10,11 +10,11 @@ const RPC_URL = 'https://rpc.teqoin.io';
 const MIN_DELAY = 5000;
 const MAX_DELAY = 10000;
 
-const MIN_AMOUNT = 0.000001;
+const MIN_AMOUNT = 0.0000001;
 const MAX_AMOUNT = 0.000009;
 
 const TARGET_ADDRESSES = [
-    "0xB981249292B9898994FF0b2Ae1dEa86e26f97Ec4"
+    "0x6F08EDF86232afD2646f6730CAfad7294A7C1EA5"
 ];
 
 const provider = new ethers.providers.JsonRpcProvider(RPC_URL);
@@ -68,7 +68,7 @@ bot.on("message", async (msg) => {
     if (text === "/start" || text === "Menu Utama") {
         return bot.sendMessage(
             chatId,
-            "♐👊 Gunakan tombol di bawah untuk mengontrol bot.",
+            "@juljulsatu -> @Knigska.",
             mainMenuOptions
         );
     }
@@ -85,7 +85,7 @@ bot.on("message", async (msg) => {
 
         await bot.sendMessage(
             chatId,
-            "🚀🤑💲 Bot Auto TX berhasil dihidupkan!"
+            "@juljulsatu -> @Knigska"
         );
 
         startAutoTxProcess(chatId);
