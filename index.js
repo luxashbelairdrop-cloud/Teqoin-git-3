@@ -7,8 +7,8 @@ const ADMIN_CHAT_ID = 1809279512;
 
 const RPC_URL = 'https://rpc.teqoin.io';
 
-const MIN_DELAY = 5000;
-const MAX_DELAY = 10000;
+const MIN_DELAY = 8000;
+const MAX_DELAY = 16000;
 
 const MIN_AMOUNT = 0.000001;
 const MAX_AMOUNT = 0.00009;
